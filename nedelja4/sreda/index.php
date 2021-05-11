@@ -24,5 +24,7 @@
       $zbir = $a + $b + $c;
       echo "Zbir brojeva $a, $b i $c je $zbir.";
     ?>
+    <h2>Vezba</h2>
+    
 </body>
 </html>
