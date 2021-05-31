@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: centar;
+  justify-content: center;
+}
+.proizvod {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 5px;
+  transition: all 0.6s ease-in-out;
+}
+.proizvod:hover {
+  transform: scale(1.2);
+}
+.proizvod img {
+  width: 200px;
+  height: 200px;
+}
+.proizvod p {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 0;
+  color: rgb(75, 75, 75);
+}
+
+p span {
+  text-align: center;
+}
